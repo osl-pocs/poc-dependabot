@@ -1,0 +1,18 @@
+name: poc-dependabot
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # compilers, interpreters, system dependencies, etc
+  - python
+  # build tool
+  - poetry
+  # production deps
+  - pandas
+  - numpy
+  - plotly
+  # dev deps
+  - black
+  - flake8
+  - mypy
+  - pre-commit
