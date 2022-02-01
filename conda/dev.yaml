@@ -16,3 +16,4 @@ dependencies:
   - flake8
   - mypy
   - pre-commit
+  - pip >=21.1
